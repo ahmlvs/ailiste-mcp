@@ -1,0 +1,9 @@
+{
+  "name": "ailiste",
+  "version": "1.0.0",
+  "mcpServers": {
+    "ailiste": {
+      "httpUrl": "https://mcp.ailiste.app/"
+    }
+  }
+}
