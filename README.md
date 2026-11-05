@@ -29,6 +29,7 @@ All five are read-only.
 - **Claude** (claude.ai or the desktop app): Settings → Connectors → Add custom connector → `https://mcp.ailiste.app/`
 - **Claude Code:** `claude mcp add --transport http ailiste https://mcp.ailiste.app/`
 - **Cursor** (`mcp.json`): `{"mcpServers": {"ailiste": {"url": "https://mcp.ailiste.app/"}}}`
+- **Grok:** grok.com/connectors → New Connector → Custom → `https://mcp.ailiste.app/`
 - **Gemini CLI:** `gemini extensions install https://github.com/ahmlvs/ailiste-mcp`
 - Any other client that speaks Streamable HTTP: the endpoint above.
 
