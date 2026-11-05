@@ -3,8 +3,28 @@
   "name": "app.ailiste/mcp",
   "title": "ailiste - new builds in Cyprus",
   "description": "Cyprus new builds: buildings, dated site photos and stages, developers and district asking prices.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://ailiste.app/mcp/",
+  "repository": {
+    "url": "https://github.com/ahmlvs/ailiste-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://ailiste.app/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://ailiste.app/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
