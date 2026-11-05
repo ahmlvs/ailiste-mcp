@@ -8,6 +8,7 @@ delivery. For each district: the asking price per square metre and for a whole h
 - **Endpoint:** `https://mcp.ailiste.app/` - Streamable HTTP, no sign-in, no key
 - **Website:** [ailiste.app](https://ailiste.app) - how to connect, in six languages: [ailiste.app/mcp](https://ailiste.app/mcp/)
 - **Official MCP Registry:** `app.ailiste/mcp`
+- **Claude's connector directory:** [claude.ai/directory/ailiste](https://claude.ai/directory/ailiste)
 
 This repository holds no code: the server runs at the address above. It is here so that catalogues of MCP
 servers, and people, can find it.
@@ -26,7 +27,7 @@ All five are read-only.
 
 ## Connect
 
-- **Claude** (claude.ai or the desktop app): Settings → Connectors → Add custom connector → `https://mcp.ailiste.app/`
+- **Claude** (claude.ai or the desktop app): from Claude's connector directory, https://claude.ai/directory/ailiste - or Settings → Connectors → Add custom connector → `https://mcp.ailiste.app/`
 - **Claude Code:** `claude mcp add --transport http ailiste https://mcp.ailiste.app/`
 - **Cursor** (`mcp.json`): `{"mcpServers": {"ailiste": {"url": "https://mcp.ailiste.app/"}}}`
 - **Grok:** grok.com/connectors → New Connector → Custom → `https://mcp.ailiste.app/`
