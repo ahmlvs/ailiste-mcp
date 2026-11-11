@@ -36,6 +36,26 @@ All five are read-only.
 - **Gemini CLI:** `gemini extensions install https://github.com/ahmlvs/ailiste-mcp`
 - Any other client that speaks Streamable HTTP: the endpoint above.
 
+The configuration, for a client that takes a JSON file (Cursor's `mcp.json`, Claude Code's `.mcp.json`, VS Code,
+Windsurf and others):
+
+```json
+{
+  "mcpServers": {
+    "ailiste": {
+      "type": "http",
+      "url": "https://mcp.ailiste.app/"
+    }
+  }
+}
+```
+
+The same as a command:
+
+```bash
+claude mcp add --transport http ailiste https://mcp.ailiste.app/
+```
+
 ## Ask it
 
 - "New two-bedroom apartments in Germasogeia with a pool, ready by 2027"
