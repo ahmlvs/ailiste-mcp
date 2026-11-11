@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ailiste": {
+      "type": "http",
+      "url": "https://mcp.ailiste.app/"
+    }
+  }
+}
