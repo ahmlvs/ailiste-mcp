@@ -1,6 +1,7 @@
 # ailiste MCP - new builds in Cyprus
 
 [![ToolSDK MCP Registry](https://badges.toolsdk.ai/badge/@toolsdk-remote/ailiste)](https://toolsdk-ai.github.io/toolsdk-mcp-registry/#%40toolsdk-remote%2Failiste)
+[![M8ven Score](https://m8ven.ai/badge/mcp/ahmlvs-ailiste-mcp-drspeb?v=60b803359a5f18ee23bd67fac9c95a71&variant=verified)](https://m8ven.ai/mcp/ahmlvs-ailiste-mcp-drspeb?s=readme)
 
 A free, read-only [MCP](https://modelcontextprotocol.io) server for AI assistants: the new-build homes of
 Cyprus - Limassol, Paphos, Larnaca, Nicosia and Famagusta's free area - and what is really there. For each
